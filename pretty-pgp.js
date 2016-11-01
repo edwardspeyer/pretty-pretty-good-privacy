@@ -337,10 +337,10 @@ var Binary = function(bytes) {
     var result;
     if (length) {
       var to = position + length;
-      result = bytes.slice(position, to);
+      result = bytes.subarray(position, to);
       position = to;
     } else {
-      result = bytes.slice(position);
+      result = bytes.subarray(position);
       position = bytes.length;
     }
     return result;
@@ -357,7 +357,7 @@ var Binary = function(bytes) {
   this.string = function(length) {
     var buf = [];
     while(!this.eof()) {
-      var b = this.read(1);
+      var b = this.read(1)[0];
       var c = String.fromCharCode(b);
       buf.push(c);
       if (length && buf.length >= length) {
