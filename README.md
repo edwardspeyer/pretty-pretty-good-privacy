@@ -3,7 +3,9 @@
 Scan the DOM for ASCII armored OpenPGP keys and re-render them with ASCII art
 user images!  [Pretty pretty good!](https://www.youtube.com/watch?v=O_05qJTeNNI)
 
-~~~~
+![Example screenshot](example.jpg)
+
+```html
 <script src="pretty-pgp.js"></script>
 <div class="pretty-pgp-key">
 -----BEGIN PGP PUBLIC KEY BLOCK-----
@@ -11,7 +13,7 @@ Version: GnuPG v1.4.12 (GNU/Linux)
 ...
 -----END PGP PUBLIC KEY BLOCK-----
 </div>
-~~~~
+```
 
 With thanks to the following:
 
