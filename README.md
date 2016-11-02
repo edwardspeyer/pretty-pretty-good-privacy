@@ -1,6 +1,6 @@
 # Pretty Pretty Good (Privacy)
 
-Use `pretty-pgp.js` to pretty-print an OpenPGP key.  The script will scan the DOM and re-render any ASCII armored OpenPGP keys it finds.  In particular, if the key contains an _image attribute_ then the body of the key will be colored such as to render the image as ASCII art.
+Use `pretty-pgp.js` to pretty-print an OpenPGP key.  The script will scan the DOM and re-render any ASCII armored OpenPGP keys it finds.  In particular, if the key contains an _image attribute_ then the body of the key will be colored such as to render the image as ASCII art.  Here's [my key page](https://edwardspeyer.com/pgp/) as an example.
 
 [Pretty pretty good!](https://www.youtube.com/watch?v=O_05qJTeNNI)
 
